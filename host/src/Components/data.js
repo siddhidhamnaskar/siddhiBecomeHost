@@ -16,9 +16,17 @@ function Add(){
         <>
         <img id="image" src={arr[i]} alt="" />
         <div id="transperent-box">
+        <div id="first-box">
             <p>Sharing is Earning</p>
-            <p>Share your car and earn upto ₹5000</p>
+            <p>Share your car and earn upto ₹50000</p>
             <button id="button">START EARNING</button>
+            </div>
+           
+            <div id="empty-box">
+                <h1>jdckdcn</h1>
+                <h3>jncjkdcn</h3>
+
+            </div>
         </div>
         </>
       
