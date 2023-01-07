@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 
 
 let arr=[];
@@ -11,8 +11,8 @@ arr.push("https://doav52ie4cv60.cloudfront.net/in/host/share-your-car/images/hos
 let i=0;
 function Add(){
    
-    const root = ReactDOM.createRoot(document.getElementById('box2'));
-    root.render(
+    const rootElement = ReactDOM.createRoot(document.getElementById('box2'));
+    rootElement.render(
         <>
         <img id="image" src={arr[i]} alt="" />
         <div id="transperent-box">
